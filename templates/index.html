@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Hidden input fields to store image paths -->
+    <input type="hidden" id="userIconPath" value="{{ url_for('static', filename='images/user-icon.png') }}">
+    <input type="hidden" id="botIconPath" value="{{ url_for('static', filename='images/bot-icon.png') }}">
+
+    <!-- Chatbot container with icon to toggle chat -->
+    <div class="chatbot-container">
+        <div class="welcome-message" id="welcome-message">
+            Heyy!! I am Chatur!<br>How can I help you?
+        </div>
+        <img src="{{ url_for('static', filename='images/chatbot-icon.png') }}" alt="Chatbot Icon" class="chatbot-icon" onclick="toggleChat()">
+    </div>
+
+    <!-- Chat window -->
+    <div id="chat-window">
+        <div class="chat-header">
+            <span>Chat with ADYPSOE Assistant</span>
+            <button class="close-button" onclick="toggleChat()">✕</button> <!-- Custom close button -->
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here dynamically -->
+            <div id="thinking-indicator" class="thinking-indicator" style="display: none;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button id="send-btn"><img src="{{ url_for('static', filename='images/paper-plane-icon.png') }}" alt="Send"></button> <!-- Paper plane icon for send button -->
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</body>
+</html>
