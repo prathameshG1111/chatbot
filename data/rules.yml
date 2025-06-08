@@ -1,0 +1,11 @@
+version: "3.1"
+rules:
+  - rule: Ask for branch after program is provided
+    steps:
+      - intent: provide_program
+      - action: utter_ask_branch
+
+  - rule: Provide admission details after both program and branch
+    steps:
+      - intent: provide_branch
+      - action: action_provide_admission_details

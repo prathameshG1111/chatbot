@@ -1,0 +1,86 @@
+version: "3.1"
+nlu:
+  - intent: ask_admission_process
+    examples: |
+      - What is the admission process?
+      - How do I apply for admission?
+      - Admission process
+      - Tell me about the admission process
+
+  - intent: provide_program
+    examples: |
+      - I want to apply for [UG](program)
+      - I am interested in [PG](program)
+      - [Diploma](program)
+      - [Undergraduate](program)
+      - [Postgraduate](program)
+      - I want to take admission in [Postgrad](program)
+      - I want to enroll in a [Diploma](program) program
+
+  - intent: provide_branch
+    examples: |
+      - [Computer Engineering](branch)
+      - [Artificial Intelligence & Machine Learning](branch)
+      - [Civil Engineering](branch)
+      - [Mechanical Engineering](branch)
+      - [Electrical Engineering](branch)
+      - [Artificial Intelligence and Data Science](branch)
+      - [Electronics and Telecommunications](branch)
+      - [VLSI & Embedded Systems](branch)
+      - [Computer Engineering (PG)](branch)
+      - [Mechanical Design Engineering](branch)
+      - [Structural Engineering](branch)
+      - [Construction Management](branch)
+      - [Diploma in AI & ML](branch)
+      - [Diploma in Computer Engineering](branch)
+      - [Diploma in Mechanical Engineering](branch)
+      - [Diploma in Civil Engineering](branch)
+
+  - intent: ask_cutoff
+    examples: |
+      - What is the expected cutoff for [Computer Engineering](branch)?
+      - Tell me the cutoff for [AI & DS](branch).
+      - What will be the cutoff for [Mechanical](branch) in [2024](year)?
+      - Give me the cutoff for [Civil Engineering](branch) for [OHU](university_type).
+
+  - synonym: "Computer Engineering"
+    examples: |
+      - Computer
+      - CS
+      - CE
+      - Comp Engg
+
+  - synonym: "Artificial Intelligence and Data Science"
+    examples: |
+      - AI & DS
+      - AI and DS
+      - Data Science
+
+  - synonym: "Electronics and Telecommunications"
+    examples: |
+      - E&TC
+      - Electronics
+      - Telecom
+
+  - synonym: "Artificial Intelligence & Machine Learning"
+    examples: |
+      - AI & ML
+      - AI and ML
+      - Artificial Intelligence and Machine Learning
+      - ai & ml
+      - ai and ml
+
+  - synonym: "VLSI & Embedded Systems"
+    examples: |
+      - VLSI
+      - Embedded Systems
+
+  - synonym: "Mechanical Design Engineering"
+    examples: |
+      - MDE
+      - Mechanical Design
+
+  - synonym: "Construction Management"
+    examples: |
+      - CM
+      - Construction Mgmt

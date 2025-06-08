@@ -1,0 +1,10 @@
+version: "3.1"
+stories:
+  - story: Admission process flow
+    steps:
+      - intent: ask_admission_process
+      - action: utter_ask_program
+      - intent: provide_program
+      - action: utter_ask_branch
+      - intent: provide_branch
+      - action: action_provide_admission_details
