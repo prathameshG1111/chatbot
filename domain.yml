@@ -1,0 +1,71 @@
+version: "3.1"
+
+intents:
+  - ask_admission_process
+  - ask_cutoff
+  - provide_program
+  - provide_branch
+  - provide_university_type
+  - provide_category
+
+entities:
+  - program
+  - branch
+  - university_type
+  - category
+
+slots:
+  program:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: program
+  branch:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: branch
+
+  
+  university_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: university_type
+
+  category: 
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: category
+
+responses:
+  utter_ask_program:
+    - text: "Please specify the program (UG, PG, or Diploma)."
+
+  utter_ask_branch:
+    - text: "Which branch are you interested in?"
+
+  utter_admission_process:
+    - text: |
+        The admission process for {program} in {branch} is as follows:
+        1. Submit the online application.
+        2. Provide required documents (ID, transcripts, etc.).
+        3. Appear for entrance if applicable.
+        4. Check the fee structure.
+        Intake capacity: {intake} students.
+
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Could you please rephrase?"
+
+actions:
+  - action_provide_admission_details
+  - action_predict_cutoff
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

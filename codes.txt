@@ -1,0 +1,5 @@
+rasa train
+1. rasa run actions
+rasa shell
+2. rasa run --enable-api --cors "*" --debug
+3. flask run --port=5001

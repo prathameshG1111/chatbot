@@ -1,0 +1,122 @@
+Year,Branch,Category,University Type,Percentile Score
+2019,Computer Engineering,Open,Hu,85.83
+2019,Computer Engineering,Open,Ohu,87.17
+2019,Computer Engineering,Sc,Hu,22.88
+2019,Computer Engineering,Sc,Ohu,68.002
+2019,Computer Engineering,Obc,Hu,83.33
+2019,Computer Engineering,Obc,Ohu,77.72
+2019,Electronics And Telecommunication,Open,Hu,17.03
+2019,Electronics And Telecommunication,Open,Ohu,32.88
+2019,Electronics And Telecommunication,Sc,Hu,9.14
+2019,Mechanical Engineering,Open,Hu,11.07
+2019,Mechanical Engineering,Open,Ohu,3.37
+2019,Civil Engineering,Open,Hu,41.25
+2019,Civil Engineering,Open,Ohu,65.68
+2019,Civil Engineering,Obc,Hu,71.49
+2019,Civil Engineering,Obc,Ohu,54.61
+2019,Civil Engineering,Sc,Ohu,62.09
+2019,Civil Engineering,St,Ohu,54.34
+2020,Computer Engineering,Open,Hu,76.87
+2020,Computer Engineering,Open,Ohu,83.38
+2020,Computer Engineering,Sc,Hu,54.11
+2020,Computer Engineering,Sc,Ohu,68.22
+2020,Computer Engineering,Obc,Hu,74.33
+2020,Computer Engineering,Obc,Ohu,81.5
+2020,Artificial Intelligence And Data Science,Open,Hu,71.1
+2020,Artificial Intelligence And Data Science,Open,Ohu,72.54
+2020,Artificial Intelligence And Data Science,Sc,Hu,1.09
+2020,Artificial Intelligence And Data Science,Sc,Ohu,40.71
+2020,Artificial Intelligence And Data Science,Obc,Hu,48.49
+2020,Artificial Intelligence And Data Science,Obc,Ohu,69.95
+2020,Electronics And Telecommunication,Open,Hu,31.34
+2020,Electronics And Telecommunication,Open,Ohu,51.19
+2020,Mechanical Engineering,Open,Hu,34.64
+2020,Mechanical Engineering,Open,Ohu,19.81
+2020,Civil Engineering,Open,Hu,24.76
+2020,Civil Engineering,Open,Ohu,38.26
+2020,Civil Engineering,Obc,Ohu,30.21
+2021,Computer Engineering,Open,Hu,83.07
+2021,Computer Engineering,Open,Ohu,85.65
+2021,Computer Engineering,Sc,Hu,59.78
+2021,Computer Engineering,Sc,Ohu,81.08
+2021,Computer Engineering,St,Hu,53.25
+2021,Computer Engineering,St,Ohu,48.97
+2021,Computer Engineering,Obc,Hu,78.92
+2021,Computer Engineering,Obc,Ohu,85.25
+2021,Artificial Intelligence And Data Science,Open,Hu,72.96
+2021,Artificial Intelligence And Data Science,Open,Ohu,79.98
+2021,Artificial Intelligence And Data Science,Sc,Hu,26.73
+2021,Artificial Intelligence And Data Science,Sc,Ohu,69.66
+2021,Artificial Intelligence And Data Science,Obc,Hu,69.66
+2021,Artificial Intelligence And Data Science,Obc,Ohu,76.22
+2021,Electronics And Telecommunication,Open,Hu,52.01
+2021,Electronics And Telecommunication,Open,Ohu,67.83
+2021,Electronics And Telecommunication,Sc,Hu,42.33
+2021,Electronics And Telecommunication,Sc,Ohu,48.97
+2021,Electronics And Telecommunication,Obc,Hu,30.42
+2021,Electronics And Telecommunication,Obc,Ohu,44.48
+2021,Mechanical Engineering,Open,Hu,14.84
+2021,Mechanical Engineering,Open,Ohu,36.4
+2021,Civil Engineering,Open,Hu,1.4
+2021,Civil Engineering,Open,Ohu,17.35
+2021,Automobile Engineering,Open,Hu,27.21
+2021,Automobile Engineering,Open,Ohu,59.78
+2022,Computer Engineering,Open,Hu,87.43
+2022,Computer Engineering,Open,Ohu,89.13
+2022,Computer Engineering,Sc,Hu,72.77
+2022,Computer Engineering,Sc,Ohu,81.4
+2022,Computer Engineering,St,Hu,35.69
+2022,Computer Engineering,St,Ohu,0
+2022,Computer Engineering,Obc,Hu,84.14
+2022,Computer Engineering,Obc,Ohu,87.02
+2022,Artificial Intelligence And Data Science,Open,Hu,80.92
+2022,Artificial Intelligence And Data Science,Open,Ohu,84.03
+2022,Artificial Intelligence And Data Science,Sc,Hu,57.44
+2022,Artificial Intelligence And Data Science,Sc,Ohu,75.64
+2022,Artificial Intelligence And Data Science,St,Hu,26.31
+2022,Artificial Intelligence And Data Science,St,Ohu,62.98
+2022,Artificial Intelligence And Data Science,Obc,Hu,78.28
+2022,Artificial Intelligence And Data Science,Obc,Ohu,84.03
+2022,Electronics And Telecommunication,Open,Hu,69.6
+2022,Electronics And Telecommunication,Open,Ohu,75.18
+2022,Electronics And Telecommunication,Sc,Hu,26.31
+2022,Electronics And Telecommunication,Sc,Ohu,68.81
+2022,Electronics And Telecommunication,St,Hu,21.03
+2022,Electronics And Telecommunication,St,Ohu,50.77
+2022,Electronics And Telecommunication,Obc,Hu,64.73
+2022,Electronics And Telecommunication,Obc,Ohu,70.21
+2022,Mechanical Engineering,Open,Hu,4.33
+2022,Mechanical Engineering,Open,Ohu,4.64
+2022,Civil Engineering,Open,Hu,23.12
+2022,Civil Engineering,Open,Ohu,1.29
+2022,Automobile Engineering,Open,Hu,17.43
+2022,Automobile Engineering,Open,Ohu,24.43
+2023,Computer Engineering,Open,Hu,88.91
+2023,Computer Engineering,Open,Ohu,90.59
+2023,Computer Engineering,Sc,Hu,75.17
+2023,Computer Engineering,Sc,Ohu,84.43
+2023,Computer Engineering,St,Hu,79.78
+2023,Computer Engineering,St,Ohu,69.59
+2023,Computer Engineering,Obc,Hu,88.26
+2023,Computer Engineering,Obc,Ohu,90.18
+2023,Artificial Intelligence And Data Science,Open,Hu,84.51
+2023,Artificial Intelligence And Data Science,Open,Ohu,88.74
+2023,Artificial Intelligence And Data Science,Sc,Hu,71.26
+2023,Artificial Intelligence And Data Science,Sc,Ohu,83.34
+2023,Artificial Intelligence And Data Science,St,Hu,69.74
+2023,Artificial Intelligence And Data Science,St,Ohu,78.77
+2023,Artificial Intelligence And Data Science,Obc,Hu,83.28
+2023,Artificial Intelligence And Data Science,Obc,Ohu,88.07
+2023,Electronics And Telecommunication,Open,Hu,73.26
+2023,Electronics And Telecommunication,Open,Ohu,80.73
+2023,Electronics And Telecommunication,Sc,Hu,48.97
+2023,Electronics And Telecommunication,Sc,Ohu,71.26
+2023,Electronics And Telecommunication,St,Hu,33.55
+2023,Electronics And Telecommunication,St,Ohu,69.88
+2023,Electronics And Telecommunication,Obc,Hu,70.61
+2023,Electronics And Telecommunication,Obc,Ohu,79.78
+2023,Mechanical Engineering,Open,Hu,18.44
+2023,Mechanical Engineering,Open,Ohu,9.18
+2023,Mechanical Engineering,Sc,Hu,6.29
+2023,Civil Engineering,Open,Hu,6.19
+2023,Civil Engineering,Open,Ohu,30.58
